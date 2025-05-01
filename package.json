@@ -1,14 +1,14 @@
 {
-  "name": "datasub_autotests",
+  "name": "alphasoft_autotests",
   "version": "1.0.0",
-  "description": "Автоматизированные тесты формы 'Request A Quote' для сайта qatest.datasub.com с использованием Playwright и TypeScript.",
-  "main": "datasub_autotests.ts",
+  "description": "Автоматизированные тесты для проверки авторизации на сайте pwc.quettaspins.com с использованием Playwright и TypeScript.",
+  "main": "alphasoft_autotests.ts",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:report": "playwright show-report"
   },
-  "author": "Ваше Имя",
+  "author": "Nick Kulman",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.0"
