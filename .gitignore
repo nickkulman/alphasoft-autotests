@@ -1,15 +1,13 @@
-# Исключить папку с установленными библиотеками
+# Исключаем node_modules
 node_modules/
 
-# Исключить папку с отчётами Playwright
+# Кэш Playwright
+test-results/
 playwright-report/
 
-# Исключить кэш и артефакты Playwright
-test-results/
-
-# Системные файлы
+# ОС и редактор
 .DS_Store
-Thumbs.db
-
-# Логи
 *.log
+*.tsbuildinfo
+.idea/
+.vscode/
