@@ -6,19 +6,25 @@
 Установка проекта
 
 Склонируйте репозиторий к себе на компьютер:
+
 git clone https://github.com/nickkulman/alphasoft-autotests.git
 
 Перейдите в папку проекта:
+
 cd alphasoft-autotests
 
 Установите все зависимости:
+
 npm install
 
 Установите необходимые браузеры для Playwright:
+
 npx playwright install
 
-Запуск тестов:
-npx playwright test alphasoft-autotests.spec.ts
+Запуск теста (пример):
+
+npx playwright test login-invalid-credentials.spec.ts
 
 Запуск в headed режиме (в браузере с интерфейсом, режим наблюдения):
-npx playwright test alphasoft-autotests.spec.ts --headed
+
+npx playwright test login-invalid-credentials.spec.ts --headed
