@@ -3,7 +3,7 @@
 
 ## ⚙️ Установка и запуск
 
-Установка проекта
+# Установка проекта
 
 Склонируйте репозиторий к себе на компьютер:
 
@@ -21,10 +21,14 @@ npm install
 
 npx playwright install
 
-Запуск теста (пример):
+# Запуск теста (пример):
 
 npx playwright test login-invalid-credentials.spec.ts
 
-Запуск в headed режиме (в браузере с интерфейсом, режим наблюдения):
+# Запуск теста в headed режиме (в браузере с интерфейсом, режим наблюдения):
 
 npx playwright test login-invalid-credentials.spec.ts --headed
+
+# Запуск всех тестов в проекте:
+
+npm test
